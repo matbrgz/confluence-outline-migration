@@ -1,0 +1,28 @@
+{
+  "name": "confluence-to-outline-migration-tool",
+  "version": "0.8.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear && node index.js",
+    "lint": "eslint src/*.js",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "localtunnel": "^2.0.0",
+    "mime-types": "^2.1.27",
+    "prettier": "^2.0.5",
+    "puppeteer": "^5.0.0",
+    "readline-sync": "^1.4.10",
+    "turndown": "^6.0.0"
+  }
+}
